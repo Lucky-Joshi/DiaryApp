@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Caveat', cursive;
+  background-color: #fffdf8;
+  color: #333;
+  padding: 2rem;
+  margin: 0;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fffefc;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #92c7cf;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0.5rem 0.5rem 0 0; /* Adds spacing between buttons */
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #79b6c1;
+}
+
+button.cancel {
+  background: #bbb;
+}
+
+button.cancel:hover {
+  background: #999;
+}
+
+button.danger {
+  background: #ff6b6b;
+}
+
+button.danger:hover {
+  background: #e74c3c;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* Makes spacing clean and responsive */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.entry-card {
+  background: #f5f5f5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.dashboard-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-label {
+  font-size: 16px;
+  color: #555;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+  background-color: white;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.signup-btn {
+  background-color: #333;
+  color: white;
+}
+
+.auth-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.add-entry-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-entry-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #eee;
+  transition: all 0.2s ease;
+}
+
+.filters button:hover {
+  background-color: #ccc;
+}
+
+.entry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logout-btn-bottom {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 18px;
+  background-color: #ff6961;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.logout-btn-bottom:hover {
+  background-color: #e0514f;
+}
