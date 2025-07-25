@@ -86,7 +86,7 @@ A modern, full-featured diary web application with authentication, rich journal 
 
 ```bash
 # 1. Clone repo
-https://github.com/yourusername/DiaryAppV7.git
+https://github.com/Lucky-Joshi/DiaryAppV7.git
 
 # 2. Backend Setup
 cd backend
@@ -142,8 +142,10 @@ npm run dev
 ---
 
 ## 📸 Screenshots
-
-(coming soon)
+![Login Page](screenshots/Login.png)
+![Signup Page](screenshots/Signup.png) 
+![Dashboard](screenshots/Dashboard.png)
+![Entry Editor](screenshots/Editor.png)
 
 ---
 
